@@ -8,6 +8,7 @@ from thread import ThreadWithReturnValue
 
 
 def st_body(cursor):
+    st.set_page_config(page_title="Mercedes Benz")
     img_column = st.columns(3)[1]
     with img_column:
         img_column.image(LOGO_IMG, width=100)
