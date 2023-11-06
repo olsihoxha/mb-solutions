@@ -16,7 +16,7 @@ def st_body(cursor):
     user_input = st.sidebar.text_area(f"Describe your problem with your Mercedes")
     search_btn = st.sidebar.button("Search")
     st_load_sts = st.empty()
-    openai_tab, falcon_tab = st.tabs(['Open AI', 'Falcon-7b'])
+    falcon_tab, openai_tab = st.tabs(['Falcon-7b', 'Open AI'])
     if user_input or (search_btn and user_input):
         st_load_sts = st_load_sts.status("Processing Request...")
         with st_load_sts:
@@ -38,13 +38,13 @@ def process_text(user_input, cursor, openai_tab, falcon_tab, st_load_sts):
     falcon_thread = ThreadWithReturnValue(target=llm_model.get_ai_response,
                                           args=(parsed_input.cntx, LlmType.FALCON_LLM))
     if results:
-        with openai_tab:
-            st_load_sts.write("Generating Open AI Response...")
-            oi_thread.start()
-            openai_tab.write(oi_thread.join())
         with falcon_tab:
             st_load_sts.write("Generating Falcon Response...")
             falcon_thread.start()
             falcon_thread.join()
             falcon_tab.write(falcon_thread.join())
+        with openai_tab:
+            st_load_sts.write("Generating Open AI Response...")
+            oi_thread.start()
+            openai_tab.write(oi_thread.join())
         st_load_sts.write("Finished...")
