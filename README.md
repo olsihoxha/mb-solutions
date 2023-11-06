@@ -42,7 +42,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ### Constants 
-To run this you have to set the values of the below variables(found in `constants.py`) with your own keys
-`OPEN_AI_API_KEY = '<your-key>'`
-
-`HUGGING_FACE_API_KEY = '<your-key>'`
+To run this you have to replace the values of the variables below(found in `constants.py`) with your own keys:
+```
+OPEN_AI_API_KEY = '<your-key>'
+HUGGING_FACE_API_KEY = '<your-key>'
+```
