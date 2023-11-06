@@ -1,8 +1,7 @@
 import psycopg2
 
 
-connection_string = 'connect_str'
-
+connection_string = 'postgresql://readonly:usHtYkm4khtYEoXP@org-besabes-inst-olsi.data-1.use1.tembo.io:5432/postgres'
 
 def create_cursor():
     try:
