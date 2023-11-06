@@ -1,7 +1,7 @@
 import psycopg2
 
-
 connection_string = 'postgresql://readonly:usHtYkm4khtYEoXP@org-besabes-inst-olsi.data-1.use1.tembo.io:5432/postgres'
+
 
 def create_cursor():
     try:
@@ -26,4 +26,3 @@ def close_connection(connection, cursor):
         cursor.close()
     if connection:
         connection.close()
-
