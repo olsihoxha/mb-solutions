@@ -5,6 +5,10 @@ This chatbot serves as a resource for addressing issues related to Mercedes vehi
 It utilizes a database of information collected from the MBworld blog, where Mercedes owners have shared their experiences and insights.
 By tapping into this collective knowledge, the chatbot can offer you valuable solutions based on real-world experiences from the Mercedes community.
 It functions as a virtual advisor, providing well-informed and practical responses to your Mercedes-related questions and problems.
+
+This is based on [Tembo](https://tembo.io/) as the database which holds the data is being hosted by them,
+and it's using [pg_vectorize](https://github.com/tembo-io/pg_vectorize) which one of their implementations (LLM-backed vector search on Postgres).
+
 ## Features
 - Problem Diagnosis
 - Maintenance Reminders
