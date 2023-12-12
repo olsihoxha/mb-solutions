@@ -15,7 +15,7 @@ and it's using [pg_vectorize](https://github.com/tembo-io/pg_vectorize) which is
 - DIY Repairs
 
 ## Demo
-<video src='https://github.com/olsihoxha/mb-solutions/blob/main/mb-solutions-demo.mp4' width=180/>
+Click here to watch the [DEMO](https://github.com/olsihoxha/mb-solutions/blob/main/mb-solutions-demo.mp4)
 
 ## Getting Started
 
