@@ -14,6 +14,8 @@ and it's using [pg_vectorize](https://github.com/tembo-io/pg_vectorize) which on
 - Maintenance Reminders
 - DIY Repairs
 
+## Demo
+![Video Demo](mb-solutions-demo.mp4)
   
 ## Getting Started
 
