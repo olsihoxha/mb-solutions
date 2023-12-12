@@ -15,8 +15,8 @@ and it's using [pg_vectorize](https://github.com/tembo-io/pg_vectorize) which is
 - DIY Repairs
 
 ## Demo
-![Video Demo](https://github.com/olsihoxha/mb-solutions/blob/main/mb-solutions-demo.mp4)
-  
+<video src='https://github.com/olsihoxha/mb-solutions/blob/main/mb-solutions-demo.mp4' width=180/>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
