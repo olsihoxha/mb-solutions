@@ -7,7 +7,7 @@ By tapping into this collective knowledge, the chatbot can offer you valuable so
 It functions as a virtual advisor, providing well-informed and practical responses to your Mercedes-related questions and problems.
 
 This is based on [Tembo](https://tembo.io/) as the database which holds the data is being hosted by them,
-and it's using [pg_vectorize](https://github.com/tembo-io/pg_vectorize) which one of their implementations (LLM-backed vector search on Postgres).
+and it's using [pg_vectorize](https://github.com/tembo-io/pg_vectorize) which is one of their implementations (LLM-backed vector search on Postgres).
 
 ## Features
 - Problem Diagnosis
